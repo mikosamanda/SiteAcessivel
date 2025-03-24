@@ -3,6 +3,7 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --verde: #4ab61e;
 }
 
 body {
@@ -27,7 +28,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('inicio.png');
+    background-image: url('/home/hub-ia/Documentos/site-acessivel-projeto-inicial/Cópia de inicio.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -51,10 +52,11 @@ section {
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
+    align-self: flex-end; /* Move a imagem para a direita */
     align-items: flex-start;
     gap: 1rem;
-}
 
+}
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -98,7 +100,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--verde);
 }
 
 #galeria {
